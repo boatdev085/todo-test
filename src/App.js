@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { SET_TYPE, ADD_VALUE, SET_REDO, ADD_MANUAL } from "./store/todo/action";
 function App() {
   const { todo } = useSelector((state) => state);
-  const { value, filterType, forFilter, redo, undo } = todo;
+  const { value, forFilter, filterType, redo, undo } = todo;
   const dispatch = useDispatch();
   const [useInput, setInput] = useState("");
   const handleFilterType = (type) => {
