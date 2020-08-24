@@ -1,0 +1,5 @@
+const ADD_VALUE = "ADD_VALUE";
+const SET_TYPE = "SET_TYPE";
+const SET_REDO = "SET_REDO";
+const ADD_MANUAL = "ADD_MANUAL";
+export { ADD_VALUE, SET_TYPE, SET_REDO, ADD_MANUAL };
